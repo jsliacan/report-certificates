@@ -8,7 +8,7 @@ p.make_exact()
 p.verify_robust_stability("4:121324", "5:1223344551")
 """
 
-
+"""
 # COMPLEMENT
 # was: (k,l) = (4,3) [forbid co(K_3) minimize K_4]
 # is: (k,l) = (4,3) [forbid K_3 minimize co(K_4)]
@@ -18,7 +18,7 @@ p.solve_sdp()
 p.make_exact()
 p.verify_robust_stability("3:12")
 p.verify_perfect_stability()
-
+"""
 
 """
 # (k,l) = (5,3) [forbid co(K_3) minimize K_5]
@@ -28,6 +28,7 @@ p.solve_sdp()
 p.make_exact()
 p.verify_stability("4:121324", "5:1223344551")
 """
+
 # COMPLEMENT
 # was: (k,l) = (5,3) [forbid co(K_3) minimize K_5]
 # is: (k,l) = (5,3) [forbid K_3 minimize co(K_5)]
