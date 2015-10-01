@@ -14,3 +14,10 @@ Turan problems for K_k, k = 3,4,5,6
 
 K4^- inducibility
 - k4minus*.js
+
+
+# scripts
+- kl-stab.sage
+- maxC5noK3-stab.sage
+- turan-stab.sage
+- k4minus-stab.sage
