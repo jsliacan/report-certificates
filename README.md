@@ -5,7 +5,7 @@ maximizing the number of independent sets for given clique number
 - kl43*.js                      (k,l) = (4,3)
 
 maximizing the number of C5's in triangle-free graphs
-- C5noK3*.js
+- maxC5noK3*.js
 
 Turan problems for K_k, k = 3,4,5,6
 - K3*.js
